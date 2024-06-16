@@ -1,0 +1,213 @@
+
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+*{
+    font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:600;
+  font-style: normal;
+  font-variation-settings:"wdth" 100;
+
+}
+
+.header{
+    background-color: #FFF8F3;
+    background-image: url('./images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position:bottom right;
+
+}
+.text-orange{
+    color:#FD6E0A;
+}
+.button-orange{
+    background-color: #FD6E0A;
+    border-radius:5px;
+    color:#FFFFFF;
+    font-weight:700;
+    font-size: 20px;
+    border: 0;
+    padding: 15px;
+}
+/* nav start */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    margin:0 150px;
+    /* margin-top:0 !important; */
+  }
+.nav-logo{
+    color:#181818;
+    font-size: 45px;
+    font-weight:800;
+}
+nav>ul{
+    display: flex;
+    gap:50px;
+    align-items:center;
+   
+}
+nav li{
+    list-style: none;
+}
+nav a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight:400;
+    color: #474747;
+}
+.banner{
+    padding:20px 90px 0px 150px;
+    display: flex;
+    gap: 10px;
+    
+    justify-content: space-between;
+ 
+    
+}
+.banner-img{
+    width: 500px;
+}
+.banner-gretting{
+    font-family: 600px;
+    font-size: 45px;
+    margin-bottom: 0px;
+}
+.banner-title{
+    font-size: 85px;
+    font-weight:700px;
+    margin-top:5px;
+    margin-bottom: 0px;
+}
+.banner-desripation{
+    font-weight: 400px;
+    line-height: 30px;
+    font-size: 18px;
+    margin-top:5px;
+}
+.banner-content{
+    max-width: 585px;
+}
+.share-title{
+    font-weight:700px;
+    color: #181818;
+    text-align: center;
+    font-size: 35px;
+   
+
+}
+
+main{
+    width: 1140px; 
+    margin: 0 auto;
+}
+.about{
+background-color:#FFF8F3;
+padding:100px;
+border-radius: 10px;
+margin:100px 0;
+  
+}
+.share-description{
+    color: #181818;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400px;
+    line-height: 1.9;
+   
+}
+#about-me-description{
+    padding:10px 70px;
+}
+
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+}
+.about-info{
+    text-align: center;
+}
+.info-descripation{
+    font-size: 20px;
+    font-weight:600;
+    color:red;
+}
+.info-title{
+    color: green;
+}
+#what-i-do-description{
+    padding: 30px 150px;
+
+}
+.skill-img{
+    width:100px;
+}
+.skills-container{
+    display: flex;
+    margin-top:50px;
+    gap:30px;
+}
+.skills{
+    text-align: center;
+    padding: 30px;
+}
+.resume-heading{
+    font-size: 30px;
+    font-weight:bold;
+    text-align:center;
+}
+.resume-title{
+    font-size: 25px;
+    font-weight: 700px;
+}
+.resume-container{
+    display: flex;
+    gap:30px;
+}
+.resume-item-description, .resume-item-institue{
+    color: #757575;
+    margin-bottom: 20px;
+}
+.resume-item-title{
+    font-weight:500px;
+    font-size: 22px;
+    color: #474747;
+}
+.resume-heading{
+    margin-top:50px;
+    margin-bottom:20px;
+}
+.download-cv{
+    text-align: center;
+    margin-top: 20px;
+}
+footer{
+    display: flex;
+    padding:120px 200px;
+    background-color: #FFF8F3;
+    margin-top: 60px;
+    gap: 40px;
+}
+.footer-title{
+    font-size: 25px;
+    font-weight: 600px;
+}
+.mycontact input[type="text"],.mycontact input[type="email"], textarea{
+    display: block;
+    margin-bottom: 10px;
+    width: 100%;
+    padding:15px 20px;
+    background-color:white;
+    border-radius: 5px;
+    border:none;
+
+    
+}
+.footer-column{
+    width: 50%;
+}
+.socal-links a{
+    margin-right: 25px;
+}
+
